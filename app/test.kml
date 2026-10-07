@@ -1,0 +1,33 @@
+@"
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<Placemark>
+    <name>Test Polygon</name>
+    <description>Sample polygon for area measurement</description>
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>
+                    73.8567,18.5204,0
+                    73.8577,18.5204,0
+                    73.8577,18.5214,0
+                    73.8567,18.5214,0
+                    73.8567,18.5204,0
+                </coordinates>
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon>
+</Placemark>
+
+<Placemark>
+    <name>Test Point</name>
+    <Point>
+        <coordinates>73.8567,18.5204,0</coordinates>
+    </Point>
+</Placemark>
+
+</Document>
+</kml>
+"@ | Set-Content -Path "test.kml" -Encoding UTF8
