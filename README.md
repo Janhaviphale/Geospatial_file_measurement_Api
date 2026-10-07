@@ -6,44 +6,6 @@ transformations, and calculates area and length measurements.
 
 ---
 
-## 📸 Screenshots
-
-### 1. Swagger API Documentation
-
-![Swagger API Documentation](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4fdd0bd7-2510-4afe-9d50-f8fa1b5f21cc" />
-)
-
-The API provides interactive Swagger documentation for testing all
-available endpoints.
-
-### 2. File Upload
-
-![File Upload](screenshots/upload.png)
-
-KML and Shapefile ZIP files can be uploaded through the API.
-
-### 3. File Information
-
-![File Information](screenshots/file-info.png)
-
-The API returns the uploaded file ID, filename, feature count,
-source CRS, measurement CRS, and processing status.
-
-### 4. Measurements
-
-![Measurements](screenshots/measurements.png)
-
-The measurements endpoint returns geometry information, properties,
-area in square meters, and length in meters.
-
-### 5. Test Results
-
-![Test Results](screenshots/tests.png)
-
-All automated tests pass successfully.
-
----
-
 ## 🚀 Features
 
 - Upload `.kml` files
