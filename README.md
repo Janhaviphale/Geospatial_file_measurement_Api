@@ -10,7 +10,8 @@ transformations, and calculates area and length measurements.
 
 ### 1. Swagger API Documentation
 
-![Swagger API Documentation](screenshots/swagger.png)
+![Swagger API Documentation](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2b690b33-5405-4aa8-84b6-c146bcd63263" />
+)
 
 The API provides interactive Swagger documentation for testing all
 available endpoints.
